@@ -12,8 +12,8 @@ public class Kacin {
 
         System.out.print("50 ile 100 Arasındaki Sayıyı bakalım kaçıncı denemede bulacaksınız... ");
         System.out.print(" Hadi Başlayalım...\n");
-        int run = 1;
-        while (run == 1) {
+        boolean run = true;
+        while (run == true) {
             System.out.println("1-Başla\n" + "2-Çıkış\n");
             System.out.println("Seçim:");
             select = scanner.nextInt();
@@ -31,7 +31,7 @@ public class Kacin {
 
                 case 2:
                     if (select == 2) {
-                        run = 2;
+                        run = false;
                         System.out.print("Görüşürüz :)\n");
                     }
                     break;
