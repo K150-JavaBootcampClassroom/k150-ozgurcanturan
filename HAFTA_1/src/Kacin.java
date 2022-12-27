@@ -20,20 +20,18 @@ public class Kacin {
             switch (select) {
                 case 1:
                     for (int i = 1; i < 501; i++) {
-                        int number = random.nextInt(500);
+                        int number = random.nextInt(501);
                         trya = i;
                         if (number > 49 & number < 101) {
-                            System.out.print("Deneme Sayısı: " +"\u001B[31m"+ trya+"\n");
-                            System.out.print("\u001B[0m"+"Bulunan Sayı:" +"\u001B[34m"+ number + "\n"+"\u001B[0m");
+                            System.out.print("Deneme Sayısı: " + "\u001B[31m" + trya + "\n");
+                            System.out.print("\u001B[0m" + "Bulunan Sayı:" + "\u001B[34m" + number + "\n" + "\u001B[0m");
                             break;
                         }
                     }
 
                 case 2:
-                    if (select == 2) {
-                        run = false;
-                        System.out.print("Görüşürüz :)\n");
-                    }
+                    System.out.print("Görüşürüz :)\n");
+                    run = false;
                     break;
 
                 default:
