@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HAFTA_1/HAFTA_1.iml" filepath="$PROJECT_DIR$/HAFTA_1/HAFTA_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HAFTA_2/HAFTA_2.iml" filepath="$PROJECT_DIR$/HAFTA_2/HAFTA_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HAFTA_3/HAFTA_3.iml" filepath="$PROJECT_DIR$/HAFTA_3/HAFTA_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HAFTA_3_1/HAFTA_3_1.iml" filepath="$PROJECT_DIR$/HAFTA_3_1/HAFTA_3_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/k150-ozgurcanturan.iml" filepath="$PROJECT_DIR$/.idea/k150-ozgurcanturan.iml" />
     </modules>
   </component>
